@@ -24,3 +24,7 @@ jobs:
 
     - name: Run Maven build
       run: mvn clean install
+
+
+    - name: Run HelloWorld
+      run: java -cp target/classes HelloWorld
